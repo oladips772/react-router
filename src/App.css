@@ -50,3 +50,15 @@ nav a {
   color:black;
   font-size: 18px;
 }
+.navigation{
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  width:500px;
+  height:30px;
+  outline:none;
+  font-size: 18px;
+  margin-top: 6px;
+}

@@ -1,6 +1,6 @@
 /** @format */
 import "./App.css";
-import { Link } from "react-router-dom";
+import { Link,Outlet } from "react-router-dom";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <Link to="/Invoices">Invoices</Link>
         <Link to="/Expenses">Expenses</Link>
       </nav>
+      <Outlet />
     </div>
   );
 }
